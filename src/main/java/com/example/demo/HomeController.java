@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class HomeController {
-
+gi
     @RequestMapping("/")
     public String homePage(Model model){
         String message = "Say hello to the people!";
